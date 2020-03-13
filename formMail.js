@@ -35,10 +35,10 @@ if(q1 == "") {
     $("errorMess").text("");
 }
 $.ajax({
-    url: 'ajax/mail.php',
+    url: 'mail.php',
     type: 'POST',
     cache: false,
-    date: { 'q1': like,  'q2' : often,  'q3' : journey,  'q4' : travel, 'q5' : notcities, 'q6' : likeRussia,  'q7' : notstandart, 'age' : age, },
+    data: { 'q1': like,  'q2' : often,  'q3' : journey,  'q4' : travel, 'q5' : notcities, 'q6' : likeRussia,  'q7' : notstandart, 'age' : age, },
     dataType: 'html',
     beforeSend: function() {
         $("#sendMail").prop("disabled", true);
