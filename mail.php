@@ -1,6 +1,6 @@
 <?php
-$q1 = $_POST['like']
-$q2 = $_POST['often']
+$q1 = $_POST['like'];
+$q2 = $_POST['often'];
 $q3 = $_POST['journey']
 $q4 = $_POST['travel']
 $q5 = $_POST['notcities']
