@@ -4,15 +4,18 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatile" content="ie=edge">
-        <title>Learning JavaScript language</title>
+        <title>Tourism Questionnaire</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         
     </head>
     <body>
-       <div class="container">
-       <h1>Learning JavaScript language</h1>
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6"><img src="Foto.jpg" width="700" height="800"  vspace="20" hspace="20"/></div>
+            <div class="col-md-6"> 
+        <h1>Tourism Questionnaire</h1>
        <form id="mailForm">
-        <div id="errorMess">
+        <div id="errorMess"></div>
            <div id="like">
             <h5>1.Do you like to travel? </h5><br />
         <input type="radio" name="q1" value="yes" />
@@ -72,10 +75,13 @@
         <div id="age">
             <h5>8.What is your age?</h5><br />
         <input type="digits" name="age" placeholder="Age" /><br /><br /></div>
-        <button type="button" id="sendMail" class="btn btn-outline-success my-2 my-sm-0">Send</button><br /><br />
-       </form>
+        <button type="button" id="sendMail" class="btn btn-outline-success my-2 my-sm-0">Ready</button><br /><br />
+    </form>
        </div>
     </div>
+</div>
+</div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="formMail.js"></script>
     </body>
